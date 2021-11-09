@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+# TERMINAL PROMPT
+PS1="\[\e[0;92m\]\u\[\e[m\]"    # username
+PS1+="\[\e[0;92m\]@\[\e[m\]"    # divider
+PS1+="\[\e[0;92m\]\h\[\e[m\]"   # hostname
+PS1+=" "    # Space
+PS1+="\[\e[0;95m\]\W\[\e[m\]"    # current directory
+
+# GIT FUNCTIONS
+git_branch() {
+    git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+PS1+="\[\e[0;93m\]\$(git_branch)\[\e[m\]"
+PS1+=" $ "    # end prompt
+export PS1;
