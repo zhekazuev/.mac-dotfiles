@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+
+# NAVIGATION
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# COMMON DIRECTORIES
+alias dl="cd ~/Downloads"
+alias desc="cd ~/Desktop"
+alias docs="cd ~/Documents"
+alias dev="cd ~/Develop"
+alias home="cd ~"
+alias ll='ls -l'
+
+# GIT
+alias g="git"
+alias gs="git status"
+alias gd="git diff"
+alias gb="git branch"
+alias gm="git checkout master"
+
+# SHOW/HIDE HIDDEN FILES
+#alias showhidden="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder
+#alias hidehidden="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder
+
+# SHOW/HIDE DESKTOP ICONS
+#alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder
+#alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder
+
+# KUBECTL
+alias k='kubectl'
+
+# MOUNT as Table
+#alias mount='mount | column -t'
+
+# PYTHON
+alias pip='/usr/local/bin/pip3'
+alias python='/usr/local/bin/python3'
+alias venv="python3 -m venv venv && source venv/bin/activate"
