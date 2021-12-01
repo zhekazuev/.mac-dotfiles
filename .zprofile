@@ -1,0 +1,2 @@
+# modify aliases
+source ~/.aliases 

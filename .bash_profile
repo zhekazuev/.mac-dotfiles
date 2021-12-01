@@ -17,10 +17,6 @@ source ~/.aliases
 complete -C /usr/local/bin/terraform terraform
 
 # >>>> Vagrant command completion (start)
-. /opt/vagrant/embedded/gems/2.2.18/gems/vagrant-2.2.18/contrib/bash/completion.sh
+. /opt/vagrant/embedded/gems/*/gems/vagrant-*/contrib/bash/completion.sh
 # <<<<  Vagrant command completion (end)
 
-# Setting PATH for Python 3.9
-# The original version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:${PATH}"
-export PATH

@@ -36,6 +36,6 @@ alias k='kubectl'
 #alias mount='mount | column -t'
 
 # PYTHON
-alias pip='/usr/local/bin/pip3'
-alias python='/usr/local/bin/python3'
+alias pip=pip3
+alias python=python3
 alias venv="python3 -m venv venv && source venv/bin/activate"
