@@ -1,6 +1,8 @@
 My configs for prompt and terminal
 # mac-dotfiles
 
+## About
+Version control of bash and zsh [like this](https://softwareengineering.stackexchange.com/questions/342984/how-should-i-version-control-my-bash-profile)
 
 ## Installation
 
