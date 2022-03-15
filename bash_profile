@@ -26,3 +26,7 @@ complete -C '/usr/local/bin/aws_completer' aws
 . /opt/vagrant/embedded/gems/*/gems/vagrant-*/contrib/bash/completion.sh
 # <<<<  Vagrant command completion (end)
 
+# Golang
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH
+export PATH=$PATH:$GOPATH/bin
